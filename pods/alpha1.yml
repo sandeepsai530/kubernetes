@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    run: alpha1
+  name: alpha1
+  namespace: alpha
+spec:
+  containers:
+  - image: kiran2361993/kubegame:v1
+    name: alpha1
