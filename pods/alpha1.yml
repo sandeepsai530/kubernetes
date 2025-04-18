@@ -1,3 +1,4 @@
+# ku run alpha1 -n alpha --image kiran2361993/kubegame:v1 --dry-run -o yaml
 apiVersion: v1
 kind: Pod
 metadata:
